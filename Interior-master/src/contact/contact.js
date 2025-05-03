@@ -134,7 +134,7 @@ export function Contact() {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/contact", {
+      const res = await fetch("https://hesita-design.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

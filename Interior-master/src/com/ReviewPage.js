@@ -7,14 +7,14 @@ function ReviewPage() {
   const [text, setText] = useState('');
 
   const fetchReviews = async () => {
-    const res = await fetch('http://localhost:5000/api/reviews');
+    const res = await fetch('https://hesita-design.onrender.com/api/reviews');
     const data = await res.json();
     setReviews(data);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch('http://localhost:5000/api/reviews', {
+    await fetch('https://hesita-design.onrender.com/api/reviews', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, text }),
