@@ -25,6 +25,7 @@ import { SmoothScroll } from './smooth';
 import AdminSignup from './Admin/AdminSignup';
 import Booking from './Booking/InteriorDesignBooking';
 import AdminDashboard from './Admin/AdminDashboard';
+import Review from './com/ReviewPage';
 function App() {
 
   return (
@@ -54,6 +55,7 @@ function App() {
         <Route path="/admin/signup" element={<AdminSignup />} />  
         <Route path="/booking" element={<Booking />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/comment" element={<Review />} />
       </Routes>
       <Footer />
     </BrowserRouter>

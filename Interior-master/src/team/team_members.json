@@ -1,10 +1,10 @@
 {"members" : [
-    {"fullname": "Charlotte Levi", "job": "Design", "country": "Australia", "image":"m0", "mail":"levi@email.com"},
-    {"fullname": "Nattasha Julie", "job": "Design", "country": "Australia", "image":"m1", "mail":"levi@email.com"},
-    {"fullname": "John Smith", "job": "Design", "country": "Australia", "image":"m2", "mail":"levi@email.com"},
-    {"fullname": "Nora Owen", "job": "Design", "country": "Australia", "image":"m3", "mail":"levi@email.com"},
-    {"fullname": "Avery Jackson", "job": "Design", "country": "Australia", "image":"m4", "mail":"levi@email.com"},
-    {"fullname": "Sofia Carter", "job": "Design", "country": "Australia", "image":"m5", "mail":"levi@email.com"},
-    {"fullname": "Glanna Mateo", "job": "Design", "country": "Australia", "image":"m6", "mail":"levi@email.com"},
-    {"fullname": "Luna James", "job": "Design", "country": "Australia", "image":"m7", "mail":"levi@email.com"}
+    {"fullname": "Ram Charan", "job": "CEO", "country": "India", "image":"m0", "mail":"levi@email.com"},
+    {"fullname": "Sathguru", "job": "Design", "country": "India", "image":"m1", "mail":"levi@email.com"},
+    {"fullname": "Sai sarran", "job": "Design", "country": "India", "image":"m2", "mail":"levi@email.com"},
+    {"fullname": "Suresh", "job": "Design", "country": "India", "image":"m3", "mail":"levi@email.com"},
+    {"fullname": "Varshini shilin", "job": "Design", "country": "India", "image":"m4", "mail":"levi@email.com"},
+    {"fullname": "Janani", "job": "Design", "country": "India", "image":"m5", "mail":"levi@email.com"},
+    {"fullname": "Harini", "job": "Design", "country": "India", "image":"m6", "mail":"levi@email.com"},
+    {"fullname": "Sasi", "job": "Design", "country": "India", "image":"m7", "mail":"levi@email.com"}
 ]}

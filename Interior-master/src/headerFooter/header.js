@@ -3,6 +3,7 @@ import logo from "../images/logo.png";
 import "./header.css";
 import "../Admin/AdminLogin.js";
 import "../Booking/InteriorDesignBooking.js";
+import "../com/ReviewPage.js";
 export function Header() {
   return (
     <div className="header">
@@ -26,6 +27,7 @@ export function Header() {
             <li><Link to={`/contact`}>Contact</Link></li>
             <li><Link to={`/admin/login`}>Admin</Link></li>
             <li><Link to={`/booking`}>Booking</Link></li>
+            <li><Link to={`/comment`}>Reviews</Link></li>
         </ul>
         
       </div>
