@@ -193,3 +193,11 @@
     justify-content: center;
     align-items: center;
 }
+/* .service-type > p {
+    font-family: 'Jost';
+    color: #4d5053;
+    line-height: 1.6;
+    text-align: justify;
+    min-height: 100px; /* Ensure all paragraphs have similar height 
+    padding: 0 10px;
+} */

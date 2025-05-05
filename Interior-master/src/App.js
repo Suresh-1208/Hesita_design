@@ -28,7 +28,7 @@ import AdminDashboard from './Admin/AdminDashboard';
 import Review from './com/ReviewPage';
 function App() {
 
-  return (
+  return ( 
     <BrowserRouter>
     <SmoothScroll />
       <Header />

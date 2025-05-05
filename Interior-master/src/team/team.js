@@ -28,6 +28,7 @@ export function Team() {
               <div className="member" key={i}>
                 <div className="member-photo">
                   <img src={m5} alt="member"></img>
+                  <img src={m6} alt="member"></img>
                 </div>
                 <div className="member-info">
                   <p className="fullname">{mbr.fullname}</p>

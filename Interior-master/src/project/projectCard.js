@@ -1,5 +1,6 @@
 import "./projectCard.css";
 import project1 from "../images/project/project1.jpg";
+import project2 from "../images/project/project2.jpg";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -8,6 +9,9 @@ export function ProjectCard(props) {
         <div className="op-project">
           <div className="op-pro-img">
             <img src={project1} alt="project"></img>
+          </div>
+          <div className="op-pro-img">
+            <img src={project2} alt="project"></img>
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
