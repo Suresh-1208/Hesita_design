@@ -1,4 +1,4 @@
-.home {
+ .home {
     width: 100%;
     margin: 0;
 }
@@ -49,7 +49,6 @@
     justify-content: center;
 }
 
-/* HOME PLANS */
 .homePlans {
     display: flex;
     justify-content: space-between;
@@ -85,7 +84,7 @@
     cursor: pointer;
 }
 
-/* HOME PROJECTS */
+
 .homeAboutUs {
     width: 100%;
     margin: 5% 0;
@@ -116,7 +115,7 @@
     border-bottom-left-radius: 15%;
 }
 
-/* CALL US */
+
 .callUs {
     width: 100%;
     display: flex;
@@ -175,7 +174,7 @@
 }
 
 
-/* BRANDS */
+
 .home-brands {
     width: 100%;
     margin: 5% 0;
@@ -195,7 +194,7 @@
 .home-brands>ul>ol>img {
     width: 100%;
 }
-/* PEOPLE THOUGHTS */
+
 .people-thoughts {
     width: 94%;
     padding: 5% 3% 7% 3%;
@@ -259,7 +258,7 @@
     font-size: 15px;
 }
 
-/* HOME PROJECTS */
+
 .homeProjects {
     width: 100%;
     text-align: center;
@@ -284,7 +283,7 @@
 .hp-project {
     display: flex;
     flex-direction: column;
-    /* flex: 1 1 40%; */
+    /* flex: 1 1 40%;*/ 
     width: 45%;
     margin: 3% 0;
 }
@@ -354,7 +353,7 @@
     cursor: pointer;
 }
 
-/* HOME EXPERIENCE */
+
 
 .home-experience {
     width: 70%;
@@ -393,7 +392,6 @@
     margin: 0 8% 0 0;
 }
 
-/* ARTICLES */
 .articleNews {
     width: 70%;
     margin: 5% auto;
@@ -491,7 +489,6 @@
     cursor: pointer;
 }
 
-/* INTERNO */
 .h-interno {
     width: 70%;
     display: flex;
@@ -525,4 +522,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
+
+
