@@ -216,16 +216,14 @@ export function Blog() {
             <div className="ln-subtext">
               <h1>Low Cost Latest Invented Interior Designing Ideas</h1>
               <p>
-                Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-                turpis dignissim maximus. posuere in.
-                <br />
-                <br />
-                Contrary to popular belief. Lorem Ipsum is not simply random
-                text. It has roots in a piece of classica.
-              </p>
+  We are dedicated to delivering high-quality, reliable solutions that meet the unique needs of every client. 
+  With a strong commitment to excellence and a passion for innovation, our team works closely with you to bring 
+  your ideas to life through thoughtful design and expert execution. We prioritize clear communication, timely delivery, 
+  and sustainable practices to ensure your project is both successful and responsible.
+</p>
             </div>
             <div className="ln-detail">
-              <p className="ac-date">3 March 2023</p>
+              <p className="ac-date">3 March 2025</p>
               <Link to={`/blog-details`}>
                 <button>
                   <IoIosArrowForward />
@@ -246,7 +244,7 @@ export function Blog() {
             <div className="blog-art-content">
               <p>Let’s Get Solution For Building Construction Work</p>
               <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
+                <p className="ba-date">3 March 2025</p>
                 <Link to={`/blog-details`}>
                   <button>
                     <IoIosArrowForward />
@@ -263,7 +261,7 @@ export function Blog() {
             <div className="blog-art-content">
               <p>Building Design Innovations for Sustainable Architecture</p>
               <div className="ba-detail">
-                <p className="ba-date">5 March 2023</p>
+                <p className="ba-date">5 March 2025</p>
                 <Link to={`/blog-details`}>
                   <button>
                     <IoIosArrowForward />
@@ -280,7 +278,7 @@ export function Blog() {
             <div className="blog-art-content">
               <p>Revolutionizing Construction with Modern Tools</p>
               <div className="ba-detail">
-                <p className="ba-date">7 March 2023</p>
+                <p className="ba-date">7 March 2025</p>
                 <Link to={`/blog-details`}>
                   <button>
                     <IoIosArrowForward />
@@ -297,7 +295,7 @@ export function Blog() {
             <div className="blog-art-content">
               <p>Interior Design Tips for Small Living Spaces</p>
               <div className="ba-detail">
-                <p className="ba-date">10 March 2023</p>
+                <p className="ba-date">10 March 2025</p>
                 <Link to={`/blog-details`}>
                   <button>
                     <IoIosArrowForward />

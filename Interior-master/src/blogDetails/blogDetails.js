@@ -46,18 +46,18 @@ export function BlogDetails() {
             <p className="path">Interior / Design / Home / Decore</p>
           </div>
           <div className="bc-text t1">
-            <p>
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in.Contrary to popular belief.There are many
-              variations of passages of Lorem Ipsum available, but the majority
-              have suffered alteration in some form, by injecthumour, or
-              randomised words which don't look even slightly believable.
-              <br />
-              <br />
-              Embarrassing hidden in the middle of text. All the Lorem Ipsum
-              generators on the Internet tend to repeat predefined chunks as
-              necessary.
-            </p>
+           <p>
+  We are dedicated to delivering high-quality, reliable solutions that meet the unique needs of every client. 
+  With a strong commitment to excellence and a passion for innovation, our team works closely with you to bring 
+  your ideas to life through thoughtful design and expert execution. We prioritize clear communication, timely delivery, 
+  and sustainable practices to ensure your project is both successful and responsible.
+</p>
+<p>
+  Whether you're starting a new project or enhancing an existing one, we’re here to support you every step of the way. 
+  Our goal is to create lasting value and ensure your complete satisfaction through personalized service and attention to detail. 
+  We believe in building strong partnerships, embracing creativity, and delivering solutions that stand the test of time.
+</p>
+
           </div>
           <div className="blogD-quotes">
             <div className="blogD-q-content">
@@ -70,27 +70,19 @@ export function BlogDetails() {
 
           <div className="bc-text t2">
             <h1>Design sprints are great</h1>
-            <p>
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in.Contrary to popular belief.There are many
-              variations of passages of Lorem Ipsum available, but the majority
-              have suffered.
-              <ul>
-                <li>
-                  Contrary to popular belief.There are many variations of
-                  passages of Lorem Ipsum available, but the majority have
-                  suffered.
-                </li>
-                <li>
-                  Contrary to popular belief.There are many variations of
-                  passages of Lorem Ipsum available, but the majority have
-                  suffered.
-                </li>
-                <li>
-                  Contrary to popular belief.There are many variations of
-                  passages of Lorem Ipsum available, but the majority have
-                  suffered.
-                </li>
+           <p>
+  Creative minds explore ideas, building unique projects through vision and effort. Although it sounds simple, great designs often require deep focus and careful thought to stand out.
+
+<ul>
+  <li>
+    Although it sounds simple, great designs often require deep focus and careful thought to stand out. 
+  </li>
+  <li>
+    Innovation comes from consistent work, learning from setbacks, and adapting quickly to change. 
+  </li>
+  <li>Persistence in perfecting every element transforms ordinary projects into memorable experiences that inspire others.
+  </li>
+
               </ul>
             </p>
           </div>
@@ -100,11 +92,11 @@ export function BlogDetails() {
 
           <div className="bc-text t3">
             <p>
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in.Contrary to popular belief.There are many
-              variations of passages of Lorem Ipsum available, but the majority
-              have suffered.
-            </p>
+  We are dedicated to delivering high-quality, reliable solutions that meet the unique needs of every client. 
+  With a strong commitment to excellence and a passion for innovation, our team works closely with you to bring 
+  your ideas to life through thoughtful design and expert execution. We prioritize clear communication, timely delivery, 
+  and sustainable practices to ensure your project is both successful and responsible.
+</p>
           </div>
 
           <div className="blogD-share">
@@ -186,15 +178,15 @@ export function BlogDetails() {
             <h2>Latest News</h2>
             <div className="news">
               <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
-              <p className="news-date">28/02/2023</p>
+              <p className="news-date">26/02/2025</p>
             </div>
             <div className="news">
             <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
-              <p className="news-date">28/02/2023</p>
+              <p className="news-date">26/02/2025</p>
             </div>
             <div className="news">
             <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
-              <p className="news-date">28/02/2023</p>
+              <p className="news-date">26/02/2025</p>
             </div>
           </div>
           <div className="blogD-categories">

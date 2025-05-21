@@ -35,13 +35,11 @@ export function TeamSingle() {
         </div>
         <div className="p-d-content">
           <div className="p-d-info">
-            <h1>John Smith</h1>
+            <h1>Name</h1>
             <p className="job">Designer</p>
             <p className="subcontent">
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in.Contrpobelie frandomised words which don't
-              look even slightly believable.
-            </p>
+  Innovation thrives when creativity meets dedication. Every step, no matter how small, builds toward a greater vision. Challenges become opportunities, and persistence turns ideas into reality.
+</p>
           </div>
           <div className="icons">
             <p>
@@ -93,31 +91,24 @@ export function TeamSingle() {
         <div className="bio">
           <h1>Short Biography</h1>
           <p>
-            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-            turpmaximus.posuere in.Contrary to popular belief.There are many
-            variations of passages of Lorem Ipsum available, but the majority
-            have suffered alteration in some form, njecthumour randomised words
-            which don't look even slightly believable. <br />
-            <br />
-            Embarrassing hidden in the middle of text. All the Lorem Ipsum
-            generators on the Internet tend to repeat predefined but the
-            majority have suffered alteration in some form chunks as necessary.
-          </p>
+  Creativity and perseverance are at the heart of every successful project. While challenges may arise, they often lead to unexpected opportunities and growth. True innovation comes from embracing change and pushing beyond comfort zones.<br /><br />
+  In the journey of creation, mistakes are not setbacks but lessons that guide the way forward. Consistent effort and adaptability transform ideas into meaningful achievements that inspire and endure.
+</p>
+
         </div>
         <div className="bio-skill">
           <div className="skill">
             <h3>Simplicity and Functionality</h3>
             <p>
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in belief. <br />
-            <br />There are many variations of
-              passages of Lorem Ipsum from available, but the majority have
-              suffered alteration in some form, njecthumour
-            </p>
+  Success is built on a foundation of focus and determination. While the path may seem straightforward, it often requires patience and resilience to overcome obstacles.<br /><br />
+  There are many ways to approach a challenge, but staying true to your vision and adapting when necessary leads to the most rewarding outcomes.
+</p>
+
           </div>
           <div className="questions">
-            <h3>Question and Answer</h3>
-            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
+            <h3>Questions and Answers</h3>
+<p>Explore common queries and clear explanations to help you better understand the topic at hand.</p>
+
           </div>
         </div>
       </div>
