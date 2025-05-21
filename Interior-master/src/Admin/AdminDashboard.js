@@ -368,11 +368,11 @@ const AdminDashboard = () => {
               <option value="rejected">Rejected</option>
             </select>
             <select name="serviceType" value={filter.serviceType} onChange={handleFilterChange}>
-            <option value="">Select a service</option>
-            <option value="Living Room Interior">Living Room Interior</option>
-            <option value="Bedroom Design">Bedroom Design</option>
-            <option value="Kitchen Renovation">Kitchen Renovation</option>
-            <option value="Full Home Design">Full Home Design</option>
+              <option value="">Select a service</option>
+              <option value="Living Room Interior">Living Room Interior</option>
+              <option value="Bedroom Design">Bedroom Design</option>
+              <option value="Kitchen Renovation">Kitchen Renovation</option>
+              <option value="Full Home Design">Full Home Design</option>
             </select>
             <input type="date" name="startDate" value={filter.startDate} onChange={handleFilterChange} />
             <input type="date" name="endDate" value={filter.endDate} onChange={handleFilterChange} />
@@ -411,6 +411,28 @@ const AdminDashboard = () => {
               <Tooltip />
             </PieChart>
           </ResponsiveContainer>
+
+          {/* Legend */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
+            {[
+              { name: 'Confirmed', color: '#38A169' },
+              { name: 'Pending', color: '#ED8936' },
+              { name: 'Rejected', color: '#E53E3E' },
+            ].map(({ name, color }) => (
+              <div key={name} style={{ display: 'flex', alignItems: 'center', margin: '0 15px' }}>
+                <div
+                  style={{
+                    width: 20,
+                    height: 20,
+                    backgroundColor: color,
+                    borderRadius: 4,
+                    marginRight: 8,
+                  }}
+                />
+                <span>{name}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -491,5 +513,3 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
-
-
