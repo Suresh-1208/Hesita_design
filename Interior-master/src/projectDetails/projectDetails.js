@@ -39,20 +39,17 @@ export function ProjectDetails() {
         <div className="d-project-info">
           <h2>Minimal Look Bedrooms</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem
-            vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa,
-            vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent
-            at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in
-            the ipsum vel lectus bibendum commodo.
-            <br />
-            <br />
-            In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet
-            tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque
-            arcu. Donec a pellentesque Cras erat enim, gravida non ante
-            vitae,elequis convallis elit, in viverra felis. Donec ultrices
-            tellus vitae iaculisvd porta. Proin tincidunt ligula id purus
-            porttitor.
-          </p>
+  We are dedicated to delivering high-quality, reliable solutions that meet the unique needs of every client. 
+  With a strong commitment to excellence and a passion for innovation, our team works closely with you to bring 
+  your ideas to life through thoughtful design and expert execution. We prioritize clear communication, timely delivery, 
+  and sustainable practices to ensure your project is both successful and responsible.
+</p>
+<p>
+  Whether you're starting a new project or enhancing an existing one, we’re here to support you every step of the way. 
+  Our goal is to create lasting value and ensure your complete satisfaction through personalized service and attention to detail. 
+  We believe in building strong partnerships, embracing creativity, and delivering solutions that stand the test of time.
+</p>
+
         </div>
       </div>
       <div className="zoomRoom">
