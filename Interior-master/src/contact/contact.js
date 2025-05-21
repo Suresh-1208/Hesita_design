@@ -109,12 +109,7 @@ import "./contact.css";
 import { GiWorld } from "react-icons/gi";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone, BsArrowRight } from "react-icons/bs";
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -125,6 +120,8 @@ export function Contact() {
     interested: "",
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e) => {
     setFormData((prev) => ({
       ...prev,
@@ -133,13 +130,25 @@ export function Contact() {
   };
 
   const handleSubmit = async () => {
+    const { fullname, mail, subject, phone, interested } = formData;
+
+    // Basic client-side validation
+    if (!fullname || !mail || !subject || !phone || !interested) {
+      alert("Please fill out all fields.");
+      return;
+    }
+
+    setLoading(true);
     try {
-      const res = await fetch("https://hesita-design.onrender.com/api/contact", {
+      const response = await fetch("https://hesita-design.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-      if (res.ok) {
+
+      const data = await response.json();
+
+      if (response.ok) {
         alert("Message sent successfully!");
         setFormData({
           fullname: "",
@@ -149,12 +158,13 @@ export function Contact() {
           interested: "",
         });
       } else {
-        alert("Error sending message.");
+        alert(data.message || "Error sending message.");
       }
     } catch (err) {
       console.error(err);
-      alert("Server error.");
+      alert("Server error. Please try again later.");
     }
+    setLoading(false);
   };
 
   return (
@@ -164,17 +174,16 @@ export function Contact() {
           Contact Us<p>Home / Contact</p>
         </h1>
       </div>
+
       <div className="contact-content">
         <h2>We love meeting new people and helping them.</h2>
         <div className="contact-form">
           <div className="contact-form-info">
-            {/* Contact Info Icons */}
             <div className="icons">
-              <p><span className="icon"><HiOutlineMail /></span><a href="mailto: hesita@gmail.com">hesita@gmail.com</a></p>
+              <p><span className="icon"><HiOutlineMail /></span><a href="mailto:hesita@gmail.com">hesita@gmail.com</a></p>
               <p><span className="icon"><BsTelephone /></span>+91 9345783603</p>
               <p><span className="icon"><GiWorld /></span><a href="http://www.hesita.com">www.hesita.com</a></p>
             </div>
-            {/* Social Media */}
             <div className="contact-smedias">
               <ul>
                 <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
@@ -185,28 +194,57 @@ export function Contact() {
             </div>
           </div>
 
-          {/* Contact Form Inputs */}
           <div className="contact-form-fill">
             <div className="nameEmail">
-              <input name="fullname" value={formData.fullname} onChange={handleChange} placeholder="Name" />
-              <input name="mail" value={formData.mail} onChange={handleChange} placeholder="Email" />
+              <input
+                type="text"
+                name="fullname"
+                value={formData.fullname}
+                onChange={handleChange}
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                name="mail"
+                value={formData.mail}
+                onChange={handleChange}
+                placeholder="Email"
+              />
             </div>
             <div className="subjectPhone">
-              <input name="subject" value={formData.subject} onChange={handleChange} placeholder="Subject" />
-              <input name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" />
+              <input
+                type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                placeholder="Subject"
+              />
+              <input
+                type="text"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="Phone"
+              />
             </div>
             <div className="interested">
-              <textarea name="interested" value={formData.interested} onChange={handleChange} placeholder="Hello, I am interested in.." />
+              <textarea
+                name="interested"
+                value={formData.interested}
+                onChange={handleChange}
+                placeholder="Hello, I am interested in.."
+              />
             </div>
             <div className="send">
-              <button type="button" onClick={handleSubmit}>
-                Send Now
+              <button type="button" onClick={handleSubmit} disabled={loading}>
+                {loading ? "Sending..." : "Send Now"}
                 <BsArrowRight style={{ marginLeft: "5px" }} color="#CDA274" />
               </button>
             </div>
           </div>
         </div>
       </div>
+
       <div className="map">
         <iframe
           src="https://www.google.com/maps?q=Erode,+Tamil+Nadu,+India&output=embed"
